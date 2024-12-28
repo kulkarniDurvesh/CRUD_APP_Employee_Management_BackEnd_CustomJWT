@@ -1,0 +1,379 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI.csproj",
+        "projectName": "Crud_App_Employee_Management_WebAPI",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI.csproj",
+        "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Crud_App_Employee_Management_WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\JWTAuthenticationAuthorization\\JWTAuthenticationAuthorization.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\JWTAuthenticationAuthorization\\JWTAuthenticationAuthorization.csproj"
+              },
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
+              },
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj"
+              },
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\JWTAuthenticationAuthorization\\JWTAuthenticationAuthorization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\JWTAuthenticationAuthorization\\JWTAuthenticationAuthorization.csproj",
+        "projectName": "JWTAuthenticationAuthorization",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\JWTAuthenticationAuthorization\\JWTAuthenticationAuthorization.csproj",
+        "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\JWTAuthenticationAuthorization\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
+              },
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+        "projectName": "ServiceLayer",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
+              },
+              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

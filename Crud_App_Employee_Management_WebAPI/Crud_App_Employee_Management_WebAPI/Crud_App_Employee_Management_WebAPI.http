@@ -1,0 +1,6 @@
+@Crud_App_Employee_Management_WebAPI_HostAddress = http://localhost:5188
+
+GET {{Crud_App_Employee_Management_WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

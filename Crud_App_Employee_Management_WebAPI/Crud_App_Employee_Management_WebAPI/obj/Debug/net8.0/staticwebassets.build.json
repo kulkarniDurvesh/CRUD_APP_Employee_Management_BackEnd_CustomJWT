@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6Tf8qwxeb299buGEzGbpkdAYDnAaKeZqDs33wL3VPyA=",
+  "Source": "Crud_App_Employee_Management_WebAPI",
+  "BasePath": "_content/Crud_App_Employee_Management_WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

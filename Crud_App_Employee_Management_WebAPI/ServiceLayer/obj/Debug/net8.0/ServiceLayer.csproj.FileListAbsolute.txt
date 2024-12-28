@@ -1,0 +1,17 @@
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\Models.dll
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.dll
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\Models.pdb
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\bin\Debug\net8.0\RepositoryLayer.pdb
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CopyComplete
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll

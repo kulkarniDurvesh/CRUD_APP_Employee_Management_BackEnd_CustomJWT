@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Crud_App_Employee_Management_WebAPI.props" />
+</Project>

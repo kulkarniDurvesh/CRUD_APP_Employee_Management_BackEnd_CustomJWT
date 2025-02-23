@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+    "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\obj\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\obj\\",
+        "outputPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
-                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
+              "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
               }
             }
           }
@@ -108,6 +108,18 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",

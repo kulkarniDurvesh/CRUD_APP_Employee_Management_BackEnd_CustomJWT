@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Models;
 using RepositoryLayer.DataAccess;
+using System.Linq;
 
 namespace RepositoryLayer
 {
@@ -95,6 +96,53 @@ namespace RepositoryLayer
                 Console.WriteLine($"Error updating employee: {ex.Message}");
                 throw; // Re-throw the exception for further handling
             }
+        }
+
+        public List<EmployeeWithGrade> GetEmployeeByGradeName(string gradeName)
+        {
+            if (string.IsNullOrEmpty(gradeName))
+            {
+                throw new ArgumentNullException(nameof(gradeName), "Grade Name cannot be null or empty");
+            }
+
+            // Check if the Grade exists
+            bool gradeExists = _connection.Grades.Any(e => e.GradeName == gradeName);
+            if (!gradeExists)
+            {
+                return null; // Return empty list if grade doesn't exist
+            }
+
+            // Get Employees for the given grade name
+            var result = _connection.EmployeeClass
+                .Join(
+                    _connection.Grades,
+                    emp => emp.EmployeeGrade,  // Foreign Key in EmployeeClass
+                    grade => grade.GradeId,    // Primary Key in Grades
+                    (emp, grade) => new EmployeeWithGrade
+                    {
+                        EmployeeId = emp.EmployeeId,
+                        EmployeeFirstName = emp.EmployeeFirstName,
+                        EmployeeLastName = emp.EmployeeLastName,
+                        EmployeeDesignation = emp.EmployeeDesignation,
+                        GradeName = grade.GradeName,
+                        GradeDescription = grade.GradeDescription
+                    })
+                .Where(e => e.GradeName == gradeName) // Filter by gradeName
+                .ToList();
+
+            return result;
+        }
+
+        public int UpdateEmployeeData()
+        {
+            var EmployeesToUpdate = _connection.EmployeeClass.Where(e => e.EmployeeCity == "Nashik");
+            foreach (var item in EmployeesToUpdate)
+            {
+                item.EmployeeGrade = 2;
+                item.EmployeeDesignation = "Senior Software Developer";
+            }
+            _connection.SaveChanges();
+            return EmployeesToUpdate.Count();
         }
     }
 }

@@ -22,5 +22,10 @@ namespace Models
         public string? EmployeeCountry { get; set; }
         public string? EmployeePhone { get; set;}
 
+        public int EmployeeGrade { get; set; }
+
+        public Grade Grade { get; set; }
+
+
     }
 }

@@ -2281,11 +2281,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
+      "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\obj\\",
+      "outputPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",

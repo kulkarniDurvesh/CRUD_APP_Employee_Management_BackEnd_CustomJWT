@@ -16,6 +16,7 @@ namespace RepositoryLayer.DataAccess
         }
         public DbSet<EmployeeClass> EmployeeClass { get; set; }
         public DbSet<Users> users { get; set; }
+        public DbSet<Grade> Grades { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>()
@@ -26,6 +27,12 @@ namespace RepositoryLayer.DataAccess
                                   .Select(role => Enum.Parse<Role>(role))
                                   .ToList() // Convert string to List<Role>
                 );
+
+            modelBuilder.Entity<EmployeeClass>()
+                .HasOne(e => e.Grade)
+                .WithMany(g => g.Employees)
+                .HasForeignKey(e => e.EmployeeGrade);
+
         }
     }
 }

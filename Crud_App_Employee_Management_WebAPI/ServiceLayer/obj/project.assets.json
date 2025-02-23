@@ -2321,11 +2321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+      "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\ServiceLayer.csproj",
       "packagesPath": "C:\\Users\\durve\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\obj\\",
+      "outputPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\durve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2342,11 +2342,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
-              "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
+            "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj": {
+              "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\Models\\Models.csproj"
             },
-            "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "D:\\Project\\CRUD_APP_Employee_Management_BackEnd_CustomJWT\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj"
+            "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\Project\\CRUD_APP_Employee_Management\\BackEnd\\Crud_App_Employee_Management_WebAPI\\RepositoryLayer\\RepositoryLayer.csproj"
             }
           }
         }

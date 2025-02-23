@@ -13,3 +13,5 @@ D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_Web
 D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\RepositoryLayer\obj\Debug\net8.0\refint\RepositoryLayer.dll
 D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.pdb
 D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\RepositoryLayer\obj\Debug\net8.0\ref\RepositoryLayer.dll
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\RepositoryLayer\bin\Debug\net8.0\RepositoryLayer.runtimeconfig.json
+D:\Project\CRUD_APP_Employee_Management\BackEnd\Crud_App_Employee_Management_WebAPI\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.genruntimeconfig.cache

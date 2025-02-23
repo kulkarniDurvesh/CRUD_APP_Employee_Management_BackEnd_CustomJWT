@@ -11,8 +11,12 @@ namespace ServiceLayer
             _employeeRepository = employeeRepository;
         }
 
-        public async Task<List<EmployeeClass>> GetAllEmployessList() { 
-            return await _employeeRepository.GetAllEmployees();
+        public async Task<List<EmployeeClass>> GetAllEmployessList() {
+            //return await _employeeRepository.GetAllEmployees();
+            var employees = await _employeeRepository.GetAllEmployees();
+            Console.WriteLine($"Fetched {employees.Count} employees.");
+            return employees;
+
         }
 
         public async Task<List<EmployeeClass>> GetAllEmployeesByAge(int age) {
@@ -26,6 +30,16 @@ namespace ServiceLayer
         public async Task<EmployeeClass> UpdateEmployeeDetails(EmployeeClass employee)
         {
             return await _employeeRepository.UpdateEmployeeDetails(employee);
+        }
+
+        public List<EmployeeWithGrade> GetEmployeeByGradeName(string gradeName)
+        {
+            return _employeeRepository.GetEmployeeByGradeName(gradeName);
+        }
+
+        public int UpdateEmployeeData() 
+        {
+            return _employeeRepository.UpdateEmployeeData();
         }
     }
 }

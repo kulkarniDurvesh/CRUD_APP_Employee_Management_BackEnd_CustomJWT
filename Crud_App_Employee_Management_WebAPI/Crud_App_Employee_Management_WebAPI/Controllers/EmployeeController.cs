@@ -43,5 +43,18 @@ namespace Crud_App_Employee_Management_WebAPI.Controllers
             return Ok(_employeeServices.UpdateEmployeeDetails(employee));
         }
 
+        [HttpGet("GetEmployeeByGradeName")]
+        public IActionResult GetEmployeeByGradeName(string gradeName)
+        {
+
+            return Ok(_employeeServices.GetEmployeeByGradeName(gradeName));
+        }
+
+        [HttpGet("UpdateEmployeeData")]
+        public IActionResult UpdateEmployeeData()
+        {
+            return Ok(_employeeServices.UpdateEmployeeData());
+        }
+
     }
 }
